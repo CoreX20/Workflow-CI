@@ -13,7 +13,7 @@ import warnings
 if __name__ == "__main__":
     warnings.filterwarnings("ignore")
 
-    df = pd.read_csv("./Student_Performance_preprocessing.csv")
+    df = pd.read_csv("MLProject/Student_Performance_preprocessing.csv")
 
     # Pisahkan fitur dan target
     X = df.drop(["Performance Index"], axis=1)
