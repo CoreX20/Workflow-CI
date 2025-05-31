@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow-CI/Workflow-CI/mlruns/0/577289d2ad194608ba20f79a0ff3460d/artifacts
+end_time: 1748709456132
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 577289d2ad194608ba20f79a0ff3460d
+run_name: popular-fowl-583
+run_uuid: 577289d2ad194608ba20f79a0ff3460d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748709452801
+status: 3
+tags: []
+user_id: runner
