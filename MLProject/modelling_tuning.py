@@ -7,13 +7,7 @@ from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
 import mlflow
 import mlflow.sklearn
 import time
-import dagshub
 import warnings
-
-dagshub.init(repo_owner="a013ybf250", repo_name="my-first-repo", mlflow=True)
-
-mlflow.set_tracking_uri("https://dagshub.com/a013ybf250/my-first-repo.mlflow/")
-mlflow.set_experiment("KNN_StudentPerformance_Tuning_Submission")
 
 
 if __name__ == "__main__":
