@@ -1,0 +1,36 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+is_signature_from_type_hint: false
+mlflow_version: 2.22.0
+model_size_bytes: 481886
+model_uuid: d6b6600eecfa483ab2e2820bb3277df1
+prompts: null
+run_id: 3f10f1c28fbd43a0bc664d05ef196bc2
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "Hours Studied", "required": true}, {"type":
+    "double", "name": "Previous Scores", "required": true}, {"type": "long", "name":
+    "Extracurricular Activities", "required": true}, {"type": "double", "name": "Sleep
+    Hours", "required": true}, {"type": "double", "name": "Sample Question Papers
+    Practiced", "required": true}]'
+  outputs: '[{"type": "double", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-05-31 16:56:47.194896'
